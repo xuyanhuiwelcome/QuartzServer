@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <!--job1-->
+    <job>
+      <name>FirstJob</name>
+      <group>Job1Group</group>
+      <description>Job1GroupServer</description>
+      <job-type>QuartzServer.FirstJob, QuartzServer</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <trigger>
+      <simple>
+        <name>FirstJobTrigger</name>
+        <group>Job1GroupTrigger</group>
+        <description>Job1GroupServerTrigger</description>
+        <job-name>FirstJob</job-name>
+        <job-group>Job1Group</job-group>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>3000</repeat-interval>
+      </simple>
+    </trigger>
+    
+    <!--job2-->
+    <job>
+        <name>SecondJob</name>
+        <group>Job1Group</group>
+        <description>Job1GroupServer</description>
+        <job-type>QuartzServer.SecondJob, QuartzServer</job-type>
+        <durable>true</durable>
+        <recover>false</recover>
+    </job>
+
+    <trigger>
+      <simple>
+        <name>SecondJobTrigger</name>
+        <group>Job1GroupTrigger</group>
+        <description>Job1GroupServerTrigger</description>
+        <job-name>SecondJob</job-name>
+        <job-group>Job1Group</job-group>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>3000</repeat-interval>
+      </simple>
+    </trigger>
+    
+  </schedule>
+</job-scheduling-data>

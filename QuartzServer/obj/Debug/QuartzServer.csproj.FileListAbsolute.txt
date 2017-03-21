@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\QuartzServer\QuartzServer\bin\Debug\QuartzServer.exe.config
+C:\Users\user\Desktop\QuartzServer\QuartzServer\bin\Debug\QuartzServer.exe
+C:\Users\user\Desktop\QuartzServer\QuartzServer\bin\Debug\QuartzServer.pdb
+C:\Users\user\Desktop\QuartzServer\QuartzServer\obj\Debug\QuartzServer.exe
+C:\Users\user\Desktop\QuartzServer\QuartzServer\obj\Debug\QuartzServer.pdb
+D:\code\net-quatz-任务调度\QuartzServer\QuartzServer\bin\Debug\QuartzServer.exe.config
+D:\code\net-quatz-任务调度\QuartzServer\QuartzServer\obj\Debug\QuartzServer.exe
+D:\code\net-quatz-任务调度\QuartzServer\QuartzServer\obj\Debug\QuartzServer.pdb
+D:\code\net-quatz-任务调度\QuartzServer\QuartzServer\bin\Debug\QuartzServer.exe
+D:\code\net-quatz-任务调度\QuartzServer\QuartzServer\bin\Debug\QuartzServer.pdb
